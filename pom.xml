@@ -77,15 +77,6 @@
     <ciManagement>
         <system>travis-ci</system>
         <url>https://travis-ci.org/cluehub/cluehub-parent</url>
-        <notifiers>
-            <notifier>
-                <type/>
-                <sendOnError>false</sendOnError>
-                <sendOnFailure>false</sendOnFailure>
-                <sendOnSuccess>false</sendOnSuccess>
-                <sendOnWarning>false</sendOnWarning>
-            </notifier>
-        </notifiers>
     </ciManagement>
     <properties>
         <organization.name>Cluehub</organization.name>
