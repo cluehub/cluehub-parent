@@ -29,7 +29,7 @@
         <version>9</version>
     </parent>
     <prerequisites>
-        <maven>3.2.0</maven>
+        <maven>3.0.1</maven>
     </prerequisites>
     <groupId>com.cluehub</groupId>
     <artifactId>cluehub-parent</artifactId>
@@ -89,8 +89,8 @@
         <project.build.timestamp>${maven.build.timestamp}</project.build.timestamp>
         <maven.build.timestamp.format>yyyy-MM-dd HH:mm z</maven.build.timestamp.format>
         <dependency.version.junit>4.12</dependency.version.junit>
-        <dependency.version.jmockit>1.22</dependency.version.jmockit>
-        <dependency.version.slf4j-api>1.7.19</dependency.version.slf4j-api>
+        <dependency.version.jmockit>1.23</dependency.version.jmockit>
+        <dependency.version.slf4j-api>1.7.21</dependency.version.slf4j-api>
         <dependency.version.auto-service>1.0-rc2</dependency.version.auto-service>
         <plugin.version.maven-compiler-plugin>3.5.1</plugin.version.maven-compiler-plugin>
         <plugin.version.maven-enforcer-plugin>1.4.1</plugin.version.maven-enforcer-plugin>
