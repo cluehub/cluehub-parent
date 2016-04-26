@@ -31,7 +31,7 @@
     </prerequisites>
     <groupId>com.cluehub</groupId>
     <artifactId>cluehub-parent</artifactId>
-    <version>1.0.0</version>
+    <version>1.0.1-SNAPSHOT</version>
     <packaging>pom</packaging>
     <name>Clue parent POM</name>
     <url>https://clue.github.io/</url>
@@ -62,7 +62,7 @@
         </developer>
     </developers>
     <scm>
-        <tag>release-1.0.0</tag>
+        <tag>HEAD</tag>
         <url>https://github.com/cluehub/cluehub-parent.git</url>
         <connection>scm:git:git@github.com:cluehub/cluehub-parent.git</connection>
         <developerConnection>scm:git:git@github.com:cluehub/cluehub-parent.git</developerConnection>
