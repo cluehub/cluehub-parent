@@ -112,6 +112,7 @@
         <plugin.version.maven-install-plugin>2.5.2</plugin.version.maven-install-plugin>
         <plugin.version.maven-site-plugin>3.5</plugin.version.maven-site-plugin>
         <plugin.version.jacoco-maven-plugin>0.7.6.201602180812</plugin.version.jacoco-maven-plugin>
+        <plugin.version.maven-checkstyle>6.19</plugin.version.maven-checkstyle>
     </properties>
     <dependencyManagement>
         <dependencies>
@@ -382,6 +383,13 @@
                     <groupId>org.apache.maven.plugins</groupId>
                     <artifactId>maven-checkstyle-plugin</artifactId>
                     <version>${plugin.version.maven-checkstyle-plugin}</version>
+                    <dependencies>
+                        <dependency>
+                            <groupId>com.puppycrawl.tools</groupId>
+                            <artifactId>checkstyle</artifactId>
+                            <version>${plugin.version.maven-checkstyle}</version>
+                        </dependency>
+                    </dependencies>
                     <executions>
                         <execution>
                             <id>checkstyle-check</id>
